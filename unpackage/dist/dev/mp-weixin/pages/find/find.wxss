@@ -1,0 +1,19 @@
+
+.search-key{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+}
+.search-key-word{
+	width: 150rpx;
+	height: 60rpx;
+	border: 1px solid #333333;
+	border-radius: 30%;
+	text-align: center;
+	margin: 15rpx 15rpx;
+}
+

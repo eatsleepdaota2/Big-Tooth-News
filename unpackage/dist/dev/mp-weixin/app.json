@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/video/video",
+    "pages/find/find",
+    "pages/mine/mine",
+    "pages/mine/item/information",
+    "pages/mine/item/advise",
+    "pages/info/info"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "大牙资讯",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "red"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icon/message.png",
+        "selectedIconPath": "static/icon/message-1.png",
+        "text": "新闻资讯"
+      },
+      {
+        "pagePath": "pages/video/video",
+        "iconPath": "static/icon/play.png",
+        "selectedIconPath": "static/icon/play-1.png",
+        "text": "精彩视频"
+      },
+      {
+        "pagePath": "pages/find/find",
+        "iconPath": "static/icon/search.png",
+        "selectedIconPath": "static/icon/search-1.png",
+        "text": "探索发现"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "static/icon/我的.png",
+        "selectedIconPath": "static/icon/我的-1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
