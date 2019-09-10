@@ -4,7 +4,7 @@
 			<zy-search :is-focus="false" :is-block="true" :show-want="false"></zy-search>	
 		</view>
 		<view class="search-key">
-			<view class="search-key-word">jugg</view>
+			<view class="search-key-word" @click="keywords">jugg</view>
 			<view class="search-key-word">sk</view>
 			<view class="search-key-word">sb</view>
 			<view class="search-key-word">spe</view>
@@ -29,6 +29,7 @@
 			zySearch
 		}
 	}
+	
 </script>
 
 <style>

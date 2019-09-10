@@ -19,20 +19,20 @@
 		</swiper>
 		<view>
 			<navigator  url="../info/info" class="news-list" v-for="(item,index) in news">
-				<image class="news-image" :src="{{item.cover}}" mode="widthFix"></image>
+				<image class="news-image" src="{{item.cover}}" mode="widthFix"></image>
 				<view class="news-title">{{item.title}}</view>
 			</navigator>	
 		</view>
+		
 	</view>
 </template>
 
 <script>
-	var _self;
+	var _self
 	export default {
 		data() {
-			
 			return {
-				news:[]	
+				news:[],
 			}
 		},
 		onLoad:function(){
@@ -57,6 +57,7 @@
 			}
 					
 			}	
+		
 	}
 </script>
 
@@ -87,5 +88,5 @@
 		align-items: center;
 		justify-content: center;
 	}
-	
+
 </style>

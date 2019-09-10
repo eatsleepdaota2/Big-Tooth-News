@@ -11,9 +11,9 @@
 			<view style="position: relative; left: 200upx; bottom: 100upx;">
 				<image src="../../../static/icon/点赞_line.png" mode="scaleToFill" style="height: 40upx; width: 40upx;"></image>
 				<view  style=" font-size: 25upx; color: #FFFFFF;">1000</view>
-			</view>
-			
+			</view>	
 		</view>
+		
 	</view>
 </template>
 

@@ -41,7 +41,8 @@
 			"style":{
 				
 			}
-		}],
+		}
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "大牙资讯",

@@ -17,6 +17,7 @@
 					<text style="font-size: 35upx;">内容吐槽</text>
 				</view>	
 			</view>
+			<button></button>
 			
 		</form>
 		
